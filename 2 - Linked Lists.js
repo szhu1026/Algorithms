@@ -71,3 +71,5 @@ console.log(L1);
 // Delete  an intermediate node
 L1.deleteNode(7);
 console.log(L1);
+
+module.exports = LinkedList;
