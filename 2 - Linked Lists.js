@@ -51,25 +51,25 @@ LinkedList.prototype.deleteNode = function (val) {
     }
 };
 
-// Create an instance of a LinkedList class
-var L1 = new LinkedList();
-
-// Create a linked list with six elements
-L1.insertNodeAtTail(5);
-L1.insertNodeAtTail(6);
-L1.insertNodeAtTail(7);
-L1.insertNodeAtTail(8);
-L1.insertNodeAtTail(9);
-L1.insertNodeAtTail(10);
-console.log(L1);
-
-// Delete a head and a tail node
-L1.deleteNode(5);
-L1.deleteNode(10);
-console.log(L1);
-
-// Delete  an intermediate node
-L1.deleteNode(7);
-console.log(L1);
+// // Create an instance of a LinkedList class
+// var L1 = new LinkedList();
+//
+// // Create a linked list with six elements
+// L1.insertNodeAtTail(5);
+// L1.insertNodeAtTail(6);
+// L1.insertNodeAtTail(7);
+// L1.insertNodeAtTail(8);
+// L1.insertNodeAtTail(9);
+// L1.insertNodeAtTail(10);
+// console.log(L1);
+//
+// // Delete a head and a tail node
+// L1.deleteNode(5);
+// L1.deleteNode(10);
+// console.log(L1);
+//
+// // Delete  an intermediate node
+// L1.deleteNode(7);
+// console.log(L1);
 
 module.exports = LinkedList;
